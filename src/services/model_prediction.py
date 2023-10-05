@@ -4,7 +4,6 @@ import numpy as np
 
 
 def get_prediction(*args):
-    print("*"*100)
     gd, age, ht, hd, sh, bmi, hl, bgl = args
 
     test_data = np.array([gd, age, ht, hd, sh, bmi, hl, bgl]).reshape(1, -1)
@@ -14,7 +13,6 @@ def get_prediction(*args):
         loaded_model = pickle.load(file)
 
     pred = loaded_model.predict(test_data)
-    print("pred:",pred)
 
     return pred[0]
 

@@ -1,5 +1,3 @@
-import logging
-
 from fastapi import APIRouter, File, Query, UploadFile
 
 from src.services.model_prediction import get_prediction

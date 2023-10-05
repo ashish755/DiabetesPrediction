@@ -1,9 +1,7 @@
 import pickle
 
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
 from imblearn.under_sampling import RandomUnderSampler
 from scipy import stats
 from sklearn import preprocessing

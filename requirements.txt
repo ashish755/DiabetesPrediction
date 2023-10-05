@@ -1,0 +1,10 @@
+pydantic
+fastapi
+matplotlib
+numpy 
+pandas
+imblearn
+scipy
+scikit-learn
+uvicorn
+python-multipart
